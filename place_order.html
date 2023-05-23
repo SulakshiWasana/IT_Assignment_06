@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Place Order</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="assets/jQuery/jquery-3.6.4.min.js">
+    <link rel="stylesheet" href="assets/styles/Place_order.css">
+</head>
+<body>
+<header>
+    <!--navigation bar-->
+    <nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" style="color: #084298" >Lankan Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Home_page.html" style="color: #084298">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Customer.html" style="color: #084298">Customers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Item.html" style="color: #084298">Items</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="place_order.html" style="color: #084298">Orders</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr id="hr"><br>
+</header>
+
+    <!--invoice details-->
+
+    <!--invoice tag-->
+    <label id="invoiceTagLabel">Invoice Details</label><br>
+
+    <div id="invoiceOrderId">
+        <label class="form-label"><b>Order Id :</b></label>
+    </div>
+
+    <div id="invoiceOrderDate">
+        <label class="form-label"><b>Date :</b></label>
+        <input id="invoiceOrderDateTextField" type="datetime-local" class="form-control">
+    </div>
+
+    <div id="invoiceCusId">
+        <label class="form-label"> <b>Customer ID :</b></label>
+        <input id="invoiceCusIdTextField" type="text" class="form-control" placeholder="Enter Customer ID">
+    </div>
+
+    <div id="invoiceCusName">
+        <label class="form-label"> <b>Customer Name :</b></label>
+        <input id="invoiceCusNameTextField" type="text" class="form-control">
+    </div>
+
+    <div id="invoiceCusAdd">
+        <label class="form-label"> <b>Customer Address :</b></label>
+        <input id="invoiceCusAddTextField" type="text" class="form-control">
+    </div>
+
+    <div id="invoiceCusSal">
+        <label class="form-label"> <b>Customer Salary :</b></label>
+        <input id="invoiceCusSalTextField" type="text" class="form-control">
+    </div>
+
+    <!--Select Item-->
+
+    <!--Select Item Tag-->
+    <label id="selectTagLabel">Select Item</label><br>
+
+    <div id="selectItemCode">
+        <label class="form-label"> <b>Item Code :</b></label>
+        <input id="selectItemCodeTextField" type="text" class="form-control" placeholder="Enter Item Code">
+    </div>
+
+    <div id="selectItemName">
+        <label class="form-label"> <b>Item Name :</b></label>
+        <input id="selectItemNameTextField" type="text" class="form-control">
+    </div>
+
+    <div id="selectItemPrice">
+        <label class="form-label"> <b>Item Price :</b></label>
+        <input id="selectItemPriceTextField" type="text" class="form-control">
+    </div>
+
+    <div id="selectItemQtyOnHand">
+        <label class="form-label"> <b>Qty On Hand :</b></label>
+        <input id="selectItemQtyOnHandTextField" type="text" class="form-control">
+    </div>
+
+    <div id="selectItemOrderQty">
+        <label class="form-label"> <b>Order Qty :</b></label>
+        <input id="selectItemOrderQtyTextField" type="text" class="form-control" placeholder="Enter Order Qty">
+    </div>
+
+    <div id="selectItemDiscount">
+        <label class="form-label"> <b>Discount :</b></label>
+        <input id="selectItemDiscountTextField" type="text" class="form-control">
+    </div>
+    <button id="btnAddToCart" type="button" class="btn btn-warning">Add to Cart</button>
+
+    <!--Check Out-->
+
+    <!--Check Out Tag-->
+    <label id="checkOutTagLabel">Check Out</label><br>
+
+    <div id="subtotalTag">
+        <p class="h3  px-3 ">Sub Total :
+            <span id="txtsubTotal"></span>
+        </p>
+    </div>
+    <div id="totalTag">
+        <p class="h3  px-3 ">Total :
+            <span id="txtTotal"></span>
+        </p>
+    </div>
+    <button id="btnConfirmOrder" type="button" class="btn btn-success" >Confirm Order</button>
+
+<!--order table-->
+<table id="orderTable" class="table">
+    <thead class="thead-dark" style="border-color: #1a1e21">
+    <tr>
+        <th scope="col">Item ID</th>
+        <th scope="col">Item Name</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price</th>
+        <th scope="col">Total</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+
+</body>
+</html>

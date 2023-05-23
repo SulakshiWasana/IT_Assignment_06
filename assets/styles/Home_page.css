@@ -1,0 +1,10 @@
+.customerform{display: none;}
+.itemform{display: none;}
+
+#hr{
+    height: 5px;
+    position: relative;
+    top: -21px;
+    color: darkblue;
+}
+

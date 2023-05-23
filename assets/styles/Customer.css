@@ -1,0 +1,133 @@
+/*#navBar{*/
+/*    background-color: rgba(35, 71, 144,0.5);*/
+/*}*/
+
+#hr{
+   height: 5px;
+    position: relative;
+    top: -21px;
+    color: darkblue;
+}
+
+#customerTag{
+    position: relative;
+    left: 10px;
+    color: #084298;
+}
+
+#div1{
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+#txtCusID{
+    position: relative;
+    top: 5px;
+    border-color: #084298 ;
+    border-radius: 10px;
+}
+
+#cusIdLabel{
+    color: #084298 ;
+    font-weight: bold;
+}
+
+#div2{
+    position: relative;
+    left: 300px;
+    top: -33px;
+}
+
+#txtCusName{
+    position: relative;
+    top: 5px;
+    border-color: #084298 ;
+    border-radius: 10px;
+}
+
+#cusNameLabel{
+    color: #084298 ;
+    font-weight: bold;
+}
+
+#div3{
+    position: relative;
+    left: 545px;
+    top: -86.5px;
+}
+
+#txtCusAdd{
+    position: relative;
+    top: 5px;
+    border-color: #084298 ;
+    border-radius: 10px;
+}
+
+#cusAddLabel{
+    color: #084298 ;
+    font-weight: bold;
+}
+
+#div4{
+    position: relative;
+    left: 790px;
+    top: -140px;
+}
+
+#txtCusSal{
+    position: relative;
+    top: 5px;
+    border-color: #084298 ;
+    border-radius: 10px;
+}
+
+#cusSalLabel{
+    color: #084298 ;
+    font-weight: bold;
+}
+
+#btnSaveCus{
+    position: relative;
+    left: 1050px;
+    top: -170px;
+    width: 100px;
+}
+
+#btnUpdateCus{
+    position: relative;
+    left: 1070px;
+    top: -170px;
+    width: 100px;
+}
+
+#btnDeleteCus{
+    position: relative;
+    left: 1100px;
+    top: -170px;
+    width: 100px;
+}
+
+#txtCusSearch{
+    position: relative;
+    left: -250px;
+    top: -90px;
+    width: 420px;
+    border-color: #084298 ;
+    border-radius: 10px;
+}
+
+#btnSearchCus{
+    position: relative;
+    left: -200px;
+    top: -95px;
+    width: 150px;
+
+}
+
+#customerTable{
+    background-color: rgba(111, 148, 220,0.5);
+    width: 1400px;
+    position: relative;
+    left: 60px;
+}
